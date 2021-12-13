@@ -1,0 +1,37 @@
+# CMake generated Testfile for 
+# Source directory: /home/g01b/3dslam/src
+# Build directory: /home/g01b/3dslam/build
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+subdirs(gtest)
+subdirs(driver_common/driver_common)
+subdirs(hector_models/hector_components_description)
+subdirs(hector_models/hector_models)
+subdirs(hector_models/hector_sensors_description)
+subdirs(hector_slam/hector_slam)
+subdirs(hector_slam/hector_slam_launch)
+subdirs(hector_models/hector_xacro_tools)
+subdirs(octomap_mapping/octomap_mapping)
+subdirs(scoutrobot_control)
+subdirs(ardrone_simulator_gazebo7/cvg_sim_msgs)
+subdirs(hector_slam/hector_map_tools)
+subdirs(hector_slam/hector_nav_msgs)
+subdirs(teleop_twist_keyboard)
+subdirs(ardrone_simulator_gazebo7/tum_simulator)
+subdirs(hector_slam/hector_geotiff)
+subdirs(hector_slam/hector_geotiff_plugins)
+subdirs(hector_slam/hector_marker_drawing)
+subdirs(driver_common/timestamp_tools)
+subdirs(driver_common/driver_base)
+subdirs(hokuyo_node)
+subdirs(hector_slam/hector_compressed_map_transport)
+subdirs(ardrone_simulator_gazebo7/cvg_sim_gazebo)
+subdirs(ardrone_simulator_gazebo7/cvg_sim_gazebo_plugins)
+subdirs(hector_slam/hector_imu_attitude_to_tf)
+subdirs(hector_slam/hector_imu_tools)
+subdirs(hector_slam/hector_map_server)
+subdirs(hector_slam/hector_trajectory_server)
+subdirs(ardrone_simulator_gazebo7/message_to_tf)
+subdirs(octomap_mapping/octomap_server)
+subdirs(hector_slam/hector_mapping)

@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC -std=c++11   -shared -Wl,-soname,libreset_plugin.so -o /home/g01b/3dslam/devel/lib/libreset_plugin.so CMakeFiles/reset_plugin.dir/src/reset_plugin.cpp.o 
